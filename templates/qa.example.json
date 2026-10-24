@@ -1,0 +1,30 @@
+{
+  "url": "http://127.0.0.1:8765/index.html",
+  "out": "C:/Users/周波/AppData/Local/Temp/opencode/shots",
+  "settleMs": 800,
+  "clearStorage": true,
+  "viewports": [
+    {
+      "name": "390x844",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "steps": [
+        { "name": "01-home", "wait": 700 },
+        { "name": "02-after-add", "js": "document.querySelector('[data-ml=\"200\"]')?.click()", "wait": 900 },
+        { "name": "03-stats", "js": "document.querySelector('.tab[data-go=\"stats\"]')?.click()", "wait": 700 },
+        { "name": "04-me", "js": "document.querySelector('.tab[data-go=\"me\"]')?.click()", "wait": 500 }
+      ]
+    },
+    {
+      "name": "375x667",
+      "width": 375,
+      "height": 667,
+      "dpr": 2,
+      "steps": [
+        { "name": "01-home", "wait": 700 },
+        { "name": "02-stats", "js": "document.querySelector('.tab[data-go=\"stats\"]')?.click()", "wait": 700 }
+      ]
+    }
+  ]
+}
