@@ -1,0 +1,11 @@
+{
+  "appId": "com.owner.appname",
+  "appName": "应用名",
+  "webDir": "www",
+  "backgroundColor": "#EEF5FC",
+  "android": {
+    "backgroundColor": "#EEF5FC",
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": true
+  }
+}
