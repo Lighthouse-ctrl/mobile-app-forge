@@ -1,0 +1,16 @@
+{
+  "name": "app-android",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "6.2.2",
+    "@capacitor/app": "6.0.3",
+    "@capacitor/core": "6.2.2",
+    "@capacitor/filesystem": "6.0.4",
+    "@capacitor/share": "6.0.4"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "3.0.5",
+    "@capacitor/cli": "6.2.2"
+  }
+}
