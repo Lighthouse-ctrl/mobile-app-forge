@@ -26,7 +26,7 @@ git clone https://github.com/Lighthouse-ctrl/mobile-app-forge.git "$env:USERPROF
 
 - 「帮我做一个记录喝水的手机 APP」
 - 「做一个记账 App，要能离线用，最后给我安装包」
-- 「改一下柠檬喝水，加个提醒功能，重新打包」
+- 「改一下喝水APP，加个提醒功能，重新打包」
 
 技能会自动按以下流程执行：
 
